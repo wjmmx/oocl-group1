@@ -1,0 +1,63 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "LoginControllers"
+    },
+    "designerId": "a6d5fb03-ca15-41fe-95bf-3e5c4d378702",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#btnLogin",
+                "designer|targetType": "Ext.button.Button",
+                "fn": "onBtnLoginClick",
+                "implHandler": [
+                    "var loginInfo = Ext.ModelManager.getModel('layout.model.loginInfo');\r",
+                    "loginInfo.set('username', 'hello');\r",
+                    "loginInfo.set('password', 'hello');\r",
+                    "\r",
+                    "Ext.Ajax.request({\r",
+                    "    url : 'login',\r",
+                    "    method : 'POST',\r",
+                    "    jsonData :  Ext.encode(user),\r",
+                    "    success : function(response) {\r",
+                    "        var res = Ext.decode(result.responseText);\r",
+                    "    },\r",
+                    "    failure : function(result, request) {\r",
+                    "        var jsonn = '{isSuccess: \"true\",role: \"userkoto\",userId: 123}';\r",
+                    "        var res = Ext.decode(jsonn);\r",
+                    "        /*\tvar user = Ext.create('loginInfo',[{\r",
+                    "        isSuccess : \"true\",\r",
+                    "        role : \"rolekoto\",\r",
+                    "        userId : \"123\"\r",
+                    "        },{\r",
+                    "        isSuccess : \"false\",\r",
+                    "        role : \"rolekotos\",\r",
+                    "        userId : \"23\"\r",
+                    "        }]);*/\r",
+                    "        console.log(res);\r",
+                    "        console.log(\"Update function ajax request failed\");\r",
+                    "    }\r",
+                    "});\r",
+                    "\r",
+                    "\r",
+                    "this.vpHome = Ext.create('layout.view.com.grp1.bkg.vpHome');\r",
+                    "this.vpHome.show();"
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "designerId": "bc171a1c-d79d-4b02-bd4d-f4a3f38e58b7"
+        }
+    ]
+}

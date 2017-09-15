@@ -1,0 +1,52 @@
+{
+    "name": "miniproj",
+    "settings": {
+        "cmd": {
+            "license": "commercial"
+        },
+        "canvasControls": {
+            "viewportSize": {
+                "name": "Large",
+                "builtIn": true,
+                "height": 1024,
+                "width": 1280
+            }
+        },
+        "urlPrefix": "",
+        "exportPath": "C:/Users/planace/Desktop/miniproj/publish",
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true,
+        "spacesToIndent": 4,
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "displayfield-ExtBox1-1278-inputEl": "Not Installed",
+        "displayfield-ExtBox1-1329-inputEl": "Not Installed"
+    },
+    "xdsVersion": "3.0.4",
+    "xdsBuild": 1386,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000004,
+    "framework": "ext42",
+    "viewOrderMap": {
+        "view": [
+            "37f774e9-63a7-4921-a8d2-6cf744c6ff9a",
+            "f6616be9-dd2a-4663-80cf-0322109edfbd"
+        ],
+        "store": [],
+        "controller": [
+            "a6d5fb03-ca15-41fe-95bf-3e5c4d378702",
+            "cb1e0c5f-6684-430f-96aa-54df6536c1bb"
+        ],
+        "model": [
+            "f4881229-f239-488b-a85b-af3d63fcaa1d"
+        ],
+        "resource": [
+            "1bd188bc-036a-4520-b3c0-53764096fab3",
+            "d7b2c89a-dd46-4fd1-86bd-452156fd60f8"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

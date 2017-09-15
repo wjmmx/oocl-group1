@@ -1,0 +1,33 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "HomeController"
+    },
+    "designerId": "cb1e0c5f-6684-430f-96aa-54df6536c1bb",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#btnSearchBooking",
+                "designer|targetType": "Ext.button.Button",
+                "fn": "onBtnSearchBookingClick",
+                "implHandler": [
+                    ""
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "designerId": "11f0c715-323d-44fe-8a7c-614c4a77d61c"
+        }
+    ]
+}

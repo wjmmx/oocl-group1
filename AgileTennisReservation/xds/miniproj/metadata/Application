@@ -1,0 +1,23 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "controllers": [
+            "LoginControllers",
+            "HomeController"
+        ],
+        "models": [
+            "loginInfo"
+        ],
+        "name": "layout",
+        "views": [
+            "MyViewport",
+            "com.grp1.bkg.vpHome"
+        ]
+    },
+    "designerId": "application"
+}

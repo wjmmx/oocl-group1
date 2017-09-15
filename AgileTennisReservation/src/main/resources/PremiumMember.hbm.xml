@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name="com.tennisReservation.PremiumMember" table="grp1_premium_member">
+      <meta attribute="class-description">
+         Mapping definition for Account Class and GRP1_ACCOUNT table
+      </meta>
+      <id name="memberId" type="int" column="MEMBERID">
+        
+      </id>
+      <property name="recurringDay" column="RECURRING_DAY" type="string"/>
+      <property name="recurringSlot" column="RECURRING_SLOT" type="string"/>
+      <property name="prefferedCourt" column="PREFFERED_COURT" type="string"/>
+      </class>
+      
+</hibernate-mapping>
